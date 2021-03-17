@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+.Sign_In{
+    float:right;
+    font-size:0.8em;
+
+    
+}
+#a{
+    background-color:#4285f4;
+
+}
+#Apps{
+
+}
+#Gmail{
+}
+header{
+    height: 5vh;
+    font-size: 0,8em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+
+
+
+}
+.about{
+    font-size:0.8em;
+    float:left;
+    margin:20px;
+
+}
+.images{
+    
+
+}
+.apps{
+    margin-top:3em;
+    height: 0.1em;
+    width: 0.1em;
+}
+.logo{
+    margin-top: 7rem;
+    text-align: center;
+    border:none;
+    outline: none;
+    
+
+
+}
+
+#google_logo{
+    clear:both;
+}
+#search{
+    border:none;
+    height: 100%;
+    /* width: 40%; */
+    text-align: start;
+    border-radius: 1rem;
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+    width: 35%;
+    max-width: 584px;
+
+}
+/* #search{
+    clear:left;
+
+    
+} */
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    cursor: text;
+    margin: 1em;
+    font: 400 13.3333px Arial;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    width: 50%;
+}
+body, input, button {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+}
+#search:hover{
+    background-color:red
+}
+#search input[type="text"]:focus {
+    outline: none;
+}
+#box1{
+    display: inline;
+    background-color: lightgray;
+    margin: 0.5em;
+    padding:0.5em;
+    font-size:0.8em;
+    margin-top: 3em;
+}
+#box2{
+    display: inline;
+    background-color: lightgray;
+    margin:0.5em;
+    padding:0.5em;
+    font-size:0.8em;
+}
+#about:hover{
+    text-underline-position: below;
+}
